@@ -1,0 +1,15 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    username: sa
+    url: jdbc:h2:mem:db
+
+keycloak:
+  server:
+    contextPath: /auth
+    admin:
+      username: admin
+      password: admin
+    realm: realm.json
