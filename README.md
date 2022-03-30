@@ -1,1 +1,1 @@
-# spring-auth
+# Embedded Keycloak server 
